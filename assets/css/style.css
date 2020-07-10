@@ -1,0 +1,15 @@
+/* css navigation */
+
+.navbar-brand {
+  font-weight: 700;
+  /* font-size: 26px; */
+  margin-right: 0px;
+}
+ul li a img {
+  padding-left: 20px;
+  transition: 0.7s;
+}
+
+ul li a img:hover {
+  transform: scale(1.2);
+}
