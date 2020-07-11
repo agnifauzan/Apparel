@@ -2450,21 +2450,24 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 .btn-primary {
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  color: #312f32;
+  padding: 5px 55px 5px 55px;
+  background-color: #fff;
+  border-color: #fff;
+  font-weight: 700;
 }
 .btn-primary:hover {
-  color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+  color: #312f32;
+  background-color: #ececec;
+  border-color: #fff3cd;
+  font-weight: 700;
 }
 .btn-primary.focus,
 .btn-primary:focus {
-  color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
-  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+  color: #312f32;
+  background-color: #fff;
+  border-color: #fff;
+  box-shadow: 0 0 0 0.2rem rgba(170, 186, 202, 0.5);
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
@@ -6126,7 +6129,7 @@ a.close.disabled {
   opacity: 1;
 }
 .carousel-caption {
-  position: absolute;
+  /* position: absolute; */
   right: 15%;
   bottom: 20px;
   left: 15%;
