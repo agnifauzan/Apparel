@@ -1,8 +1,11 @@
+section {
+  margin-bottom: 50px;
+}
+
 /*start css navigation */
 
 .navbar-brand {
   font-weight: 700;
-  /* font-size: 26px; */
   margin-right: 0px;
 }
 ul li a img {
@@ -21,13 +24,9 @@ ul li a img:hover {
 }
 
 .image-gradient1 {
-  background: rgb(255, 195, 18);
-  background: linear-gradient(
-      0deg,
-      rgba(255, 195, 18, 0.5046393557422969) 0%,
-      rgba(196, 229, 56, 0.2049194677871149) 100%
-    ),
-    url("../img/slider/slider1.jpg");
+  background: linear-gradient(rgba(77, 40, 92, 0.2), rgba(18, 243, 18, 0.5)),
+    url("../img/slider/slider3.jpg");
+
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
@@ -49,8 +48,13 @@ ul li a img:hover {
   margin-top: -20px;
 }
 .image-gradient3 {
-  background: linear-gradient(rgba(77, 40, 92, 0.2), rgba(18, 243, 18, 0.5)),
-    url("../img/slider/slider3.jpg");
+  background: rgb(255, 195, 18);
+  background: linear-gradient(
+      0deg,
+      rgba(255, 195, 18, 0.5046393557422969) 0%,
+      rgba(196, 229, 56, 0.2049194677871149) 100%
+    ),
+    url("../img/slider/slider1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
@@ -71,3 +75,38 @@ p {
   font-size: 25px;
 }
 /* End css carousel / hero slider */
+
+/* Start css clothes */
+.card {
+  transition: 0.5s;
+  border: 0px solid;
+}
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 0px 0px 7px black;
+}
+.card-img-top {
+  height: 250px;
+}
+
+.card img {
+  cursor: pointer;
+}
+.card-title {
+  font-weight: 400;
+}
+.card-title a {
+  text-decoration: none;
+  color: #312f32;
+}
+.card-title a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+.card-text {
+  font-size: 16px;
+  line-height: 10px;
+  font-weight: 300;
+  color: red;
+}
+/* End css clothes */
