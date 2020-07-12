@@ -7,6 +7,11 @@ section {
 .navbar-brand {
   font-weight: 700;
   margin-right: 0px;
+  margin-left: 0px;
+}
+.collapse {
+  display: flex;
+  flex-direction: column;
 }
 ul li a img {
   padding-left: 20px;
@@ -150,3 +155,39 @@ p {
   -ms-filter: "alpha(opacity=100)";
 }
 /* End css Scroll to top */
+
+/* start css footer */
+footer {
+  background-color: #312f32;
+  color: white;
+  height: auto;
+  display: flex;
+}
+footer h4 {
+  font-weight: medium;
+  font-size: 28px;
+}
+footer p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+footer h5 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul li a {
+  color: white;
+  font-weight: 300;
+  font-size: 14px;
+}
+footer ul li a:hover {
+  color: white;
+}
+section footer {
+}
