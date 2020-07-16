@@ -201,7 +201,7 @@ footer ul li a:hover {
 }
 /* end css breadcrum */
 
-/* strt css section hero detail */
+/* start css section hero detail */
 .imagecoverBig img {
   width: 739px;
   height: 400px;
@@ -213,7 +213,6 @@ footer ul li a:hover {
 .rowDisplay {
   margin: 2px auto;
   width: 760px;
-  /* background-color: blue; */
   display: flex;
   justify-content: start;
   margin-left: 2px;
@@ -236,7 +235,6 @@ footer ul li a:hover {
 form {
   height: 522px;
   padding-left: 15px;
-  /* border: 0.0002rem solid black; */
   border-radius: 5px;
   padding-top: 20px;
   padding-left: 25px;
@@ -253,4 +251,76 @@ form p {
   font-size: 18px;
   font-weight: 400;
   color: red;
+}
+/* end css section hero detail */
+
+/* Start css section spesifikasi */
+ul .list-group-item {
+  padding: 0.75rem 0rem;
+}
+.spesifikasi h4 {
+  font-size: 22px;
+  font-weight: 500;
+}
+.spesifikasi p {
+  font-size: 16px;
+  font-weight: 300;
+}
+/* end css section spesifikasi */
+
+/* start css checkout information  */
+.stepper {
+  margin-top: 90px;
+}
+.ulStepper {
+  padding-left: 0px;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.liStepper {
+  height: 40px;
+  width: 40px;
+  /* background-color: red; */
+  text-align: center;
+  padding: 5px;
+  padding-top: 8px;
+  border-radius: 50%;
+}
+
+.liStepper a {
+  color: black;
+}
+
+/* end css stepper */
+
+/* start css heading checkout */
+.textCheckout {
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+/* start css form checkout */
+.form-group input {
+  width: 300px;
+}
+
+.form-group label {
+  font-weight: 400;
+  font-size: 18px;
+}
+.imageCheckout {
+  display: flex;
+  justify-content: center;
+}
+/* end css form checkout */
+
+/* start css button Checkout */
+.buttonCheckout {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
 }
