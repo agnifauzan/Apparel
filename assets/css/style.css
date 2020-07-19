@@ -383,3 +383,32 @@ ul .list-group-item {
   font-weight: 400;
 }
 /* end css payment */
+
+/* start css finish */
+
+.ilustration {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  /* background-color: red; */
+}
+.ilustration img {
+  height: 200px;
+}
+
+.textIlustration {
+  /* background-color: red; */
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.textIlustration h4 {
+  font-size: 38px;
+  font-weight: 700;
+}
+.textIlustration p {
+  font-size: 18px;
+  font-weight: 300;
+}
