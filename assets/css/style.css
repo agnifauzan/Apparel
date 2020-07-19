@@ -212,16 +212,17 @@ footer ul li a:hover {
 
 .rowDisplay {
   margin: 2px auto;
-  width: 760px;
+  width: 610px;
   display: flex;
-  justify-content: start;
+  justify-content: space-around;
   margin-left: 2px;
 }
 
 .imagecover img {
-  width: 149px;
-  height: 120px;
-  margin-right: 2px;
+  width: 141px;
+  height: 110px;
+  margin-right: 10px;
+  margin-top: 8px;
   border-radius: 5px;
 }
 .form-group label {
@@ -318,9 +319,60 @@ ul .list-group-item {
 }
 /* end css form checkout */
 
-/* start css button Checkout */
+/* start css button Checkout & payment*/
 .buttonCheckout {
   display: flex;
   justify-content: center;
   margin-bottom: 80px;
 }
+/* end css button Checkout & payment*/
+
+/* start css payment */
+.payment .row {
+  display: flex;
+  height: 305px;
+}
+.payment .col-4 {
+  display: flex;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.payment p {
+  justify-content: center;
+  flex-direction: row;
+}
+.payment h4 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.buktiPembayaran {
+  display: flex;
+  flex-wrap: wrap;
+}
+.buktiPembayaran img {
+  height: 60px;
+}
+.buktiPembayaran p {
+  font-size: 12px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+.buktiPembayaran h4 {
+  padding-bottom: 10px;
+}
+.imagePayment {
+  flex-direction: column;
+}
+.imagePayment img {
+  height: 250px;
+  width: 300px;
+  margin-left: 40px;
+}
+.imagePayment p {
+  display: flex;
+  color: red;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 400;
+}
+/* end css payment */
