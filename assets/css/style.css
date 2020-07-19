@@ -293,6 +293,12 @@ ul .list-group-item {
 .liStepper a {
   color: black;
 }
+.liStepper img {
+  height: 41px;
+  width: 41px;
+  margin-top: -9px;
+  margin-left: -6px;
+}
 
 /* end css stepper */
 
@@ -317,6 +323,7 @@ ul .list-group-item {
   display: flex;
   justify-content: center;
 }
+
 /* end css form checkout */
 
 /* start css button Checkout & payment*/
