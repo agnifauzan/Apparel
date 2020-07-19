@@ -385,7 +385,6 @@ ul .list-group-item {
 /* end css payment */
 
 /* start css finish */
-
 .ilustration {
   display: flex;
   justify-content: center;
@@ -405,10 +404,11 @@ ul .list-group-item {
   text-align: center;
 }
 .textIlustration h4 {
-  font-size: 38px;
+  font-size: 28px;
   font-weight: 700;
 }
 .textIlustration p {
   font-size: 18px;
   font-weight: 300;
 }
+/* end css finish */
